@@ -1,0 +1,18 @@
+$breakpoints: (
+  "default": "min-width: 360px",
+  "s": "(min-width: 768px)",
+  "m": "(min-width: 834px)",
+  "l": "(min-width:1200px)",
+  "xl": "(min-width: 1728px)"
+);
+
+@mixin breakpoint($user-value) {
+  $my-map: map-get($breakpoints, $user-value);
+  @if $my-map {
+    @media (#{$my-map}) {
+      @content;
+    }
+  }@else {
+    @error "Opps, seems like the breakpoint #{$user-value} isn't define yet"
+  }
+};

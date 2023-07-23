@@ -1,0 +1,96 @@
+[
+  {
+    "title": "Booki - agence de voyage",
+    "cover": "https://user.oc-static.com/upload/2022/06/20/16557256333819_FR_1155_P3_Banner-Booki.png",
+    "pictures": [
+      "../src/assets/images-projects/Booki-pc-1.webp",
+      "../src/assets/images-projects/Booki-pc-2.webp",
+      "../src/assets/images-projects/Booki-tablette-2.webp",
+      "../src/assets/images-projects/booki-mobile-accueil.webp",
+      "../src/assets/images-projects/Booki-mobile-hebergement.webp",
+      "../src/assets/images-projects/Booki-mobile-activites.webp"
+    ],
+    "description": "Intégration HTML, CSS d'une maquette sur figma. Pour cela, j'ai utilisé les média queries. Le site est pensé mobile-first afin de permettre à chaque utilisateur de louer directement via son portable.",
+    "technos": ["HTML", "CSS"]
+  },
+  {
+    "title": "Sophie Bluel, architecte d'intérieur",
+    "cover": "../src/assets/images-projects/sophie-bluel.png",
+    "pictures": [
+      "../src/assets/images-projects/SophieBluel-accueil.webp",
+      "../src/assets/images-projects/SophieBluel-login.webp",
+      "../src/assets/images-projects/SophieBluel-mode-edition.webp",
+      "../src/assets/images-projects/SophieBluel-ajout-projet.webp"
+    ],
+    "description": "Implémentation de fonctionnalités JS. Il a fallu récupérer dynamiquement les images via une API, créer des filtres pour le tri des projets. Ensuite,  faciliter la mise en ligne des projets futurs de Sophie, mettre en place un système d'authentification afin de passer en mode édition. Grâce à cette fonctionnalité Sophie peut créer du contenu, ajouter ou supprimer des éléments.",
+    "technos": ["Javascript", "Api Fetch", "Swagger", "Authentification JWT"]
+  },
+  {
+    "title": "Menu Maker - création de menus en ligne",
+    "cover": "https://user.oc-static.com/upload/2022/06/21/16558082498489_FR_1156_P7_Banner-Qwenta.png",
+    "pictures": [
+      "../src/assets/images-projects/menuMaker-plancomm.webp",
+      "../src/assets/images-projects/inoreader.webp",
+      "../src/assets/images-projects/usersStories.webp",
+      "../src/assets/images-projects/backlog.webp"
+    ],
+    "description": "Préparer et planifier le projet de développement d'un site en phase de création en méthode Agile. Spécifications techniques ; Mise en place d'un outil de curation avec sources ; Création de Releases et Sprint sur le backlog Jira ; découpage des user Stories en tâches et sous-tâches ; présentation de la planification du projet",
+    "technos": ["Jira", "Inoreader"]
+  },
+  {
+    "title": "Nina Carducci - photographe d'évènements",
+    "cover": "https://user.oc-static.com/upload/2022/06/22/16559176658498_595_P9_DIW%20-%20Inte%CC%81grateur%20Front-End%20%281%29.jpg",
+    "pictures": [
+      "../src/assets/images-projects/Nina-Carducci-accueil.webp",
+      "../src/assets/images-projects/ninaCarducci-projects.webp",
+      "../src/assets/images-projects/ninaCarducci-modale.webp",
+      "../src/assets/images-projects/Nina-Carducci-auditLightHouse.webp",
+      "../src/assets/images-projects/nina-fb-meta.webp",
+      "../src/assets/images-projects/nina-twitter-meta.webp",
+      "../src/assets/images-projects/wcag-aria.webp"
+    ],
+    "description": "Débugguer le site, optimiser ses performances, mettre en place le SEO et meta-données et le rendre accessible. Afin de rendre compte de l'évolution du site, j'ai fait un compte rendu à Nina qui lui permet de visualiser le changement de performance, ainsi que la manière dont les données de son site apparaisse sur google, twitter et facebook.",
+    "technos": [
+      "audit lighthouse",
+      "SEO",
+      "meta-données",
+      "rapport d'intervention"
+    ]
+  },
+  {
+    "title": "Kasa - location immobilière entre particuliers",
+    "cover": "https://user.oc-static.com/upload/2022/06/24/16560899769906_FR_811_P8_Banner-Kasa%20%281%29.png",
+    "pictures": [
+      "../src/assets/images-projects/Kasa-accueil.webp",
+      "../src/assets/images-projects/Kasa-tablette.webp",
+      "../src/assets/images-projects/kasa-accueil-mobile.webp",
+      "../src/assets/images-projects/Kasa-apropos.webp",
+      "../src/assets/images-projects/Kasa-appartement.webp",
+      "../src/assets/images-projects/Kasa-appartement-tablette.webp",
+      "../src/assets/images-projects/Kasa-appartement-mobile.webp"
+    ],
+    "description": "Création d'un site avec la librairie React. Intégration de la maquette dans les formats Pc, tablette, mobile. Gestion des routes avec React Router, créations de composants réutilisables (carrousel, collapse, header, footer)",
+    "technos": ["React", "React Router", "Hooks", "Sass"]
+  },
+  {
+    "title": "Mon vieux grimoire - notation de livres",
+    "cover": "https://user.oc-static.com/upload/2022/10/11/16654934257102_DW-P7-Back-end_company-banner.png",
+    "pictures": [
+      "../src/assets/images-projects/monVieuxGrimoire-accueil.webp",
+      "../src/assets/images-projects/monVieuxGrimoire-login.webp",
+      "../src/assets/images-projects/monVieuxGrimoire-ajout-livre.webp",
+      "../src/assets/images-projects/monVieuxGrimoire-accueil-livre-ajoute.webp",
+      "../src/assets/images-projects/monVieuxGrimoire-description-livre.webp"
+    ],
+    "description": "Créer le backend du site, connection à la base MongoDB et création de modèles de données, gestion des routes dans l'environnement NodeJS et mise en place de controllers, stockage des données de manière sécurisée, mise en oeuvre des opérations CRUD, authentification avec email unique et hashage du mot de passe. Traitement des images",
+    "technos": [
+      "Node.JS",
+      "Express",
+      "MongoDB",
+      "JWT",
+      "unique-validator",
+      "sharp",
+      "multer"
+    ]
+  }
+]

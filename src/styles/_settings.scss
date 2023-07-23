@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Palanquin:wght@300;400;500&family=Signika+Negative:wght@400;500;600&display=swap');
+@import url("http://fonts.googleapis.com/css?family=Droid+Sans:400,600,700");
+
+$color-white: #FFFFFF;
+$color-green: #ACF39D;
+$color-purple: #9E90A2;
+$color-grey: #DEE2E1;
+$color-smoke: rgba(222, 226, 225, 0.50);
+
+$font-xs: 0.125rem;
+$font-s: 0.875rem;
+$font-m: 1rem;
+$font-l: 1.25rem;
+$font-xl: 1.5rem;
+$font-xxl: 2rem;
+$font-3xl: 2.25rem;
+$font-4xl: 3rem;
+$font-giant:3.5rem;
+$font-supergiant: 4rem;
+
+$font-header: "Droid Sans";
+$font-subtitle: "Signika Negative", sans-serif;
+$font-txt: "Palanquin", sans-serif;
+
+
+$fw-medium: 500;
+$fw-sm-b: 600;
+$fw-b: bold;
+
+$generic-size-xs:16px;
+$generic-size-s: 24px;
+$generic-size-m: 28px;
+$generic-size-l: 32px;
+$generic-size-xl: 40px;
+$generic-size-xxl: 48px;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 100vh;
+  position: relative;
+}
+
+.cover {
+  position: absolute;
+  right: 0;
+  left: 0;
+  z-index: -10;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+
+body {
+
+  @include breakpoint(s) {
+
+    .layout-limit {
+      width: 80vw;
+      margin: auto;
+    }
+
+    .portfolio-bloc, .menuB {
+      margin: unset;
+    }
+  }
+
+  @include breakpoint(m) {
+
+    .header {
+      padding-top: 25px;
+      height: 90px;
+
+      svg, svg image {
+        height: 70px;
+      }
+    }
+
+    .navigation {
+      display: flex;
+      flex-basis: calc(60% - 25px);
+      justify-content: flex-end;
+    }
+    .portfolio-bloc {
+      flex-basis: 30%;
+      margin-right: 5vw;
+    }
+    .portfolio {
+      font-size: $font-4xl;
+    }
+
+    a {
+      font-size: $font-xl;
+      padding: 0 3vw;
+    }
+
+    .navigation a:last-child {
+      padding-right: 0;
+    }
+  }
+
+  @include breakpoint(l) {
+    .header {
+      height: 142px;
+      padding-top: 35px;
+    }
+
+    .portfolio {
+      font-size: $font-giant;
+    }
+
+    a {
+      font-size: $font-xxl;
+    }
+  }
+
+  @include breakpoint(xl) {
+
+    .layout-limit {
+      width: 72vw;
+    }
+
+    .portfolio {
+      font-size: 4.375rem;
+    }
+    .portfolio-bloc {
+      flex-basis: 23%;
+    }
+
+    header {
+
+      svg {
+        margin-left: 0;
+      }
+    }
+    .nav-text {
+      font-size: 2.5rem;
+    }
+  }
+}
+
+
+
+

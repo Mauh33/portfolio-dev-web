@@ -1,0 +1,15 @@
+$color-1: #417873;
+$color-2: #00B2A2;
+$color-3: #A7E7BC;
+$border-color: #DEE2E1;
+
+$width: 8.3125rem;
+$height: 9.6875rem;
+$border-width: 15px;
+$border-radius: 15px;
+
+@mixin gradient-bg {
+  background: linear-gradient(to bottom, $color-1, $color-2, $color-3) 1;
+  mix-blend-mode: color-burn;
+}
+
