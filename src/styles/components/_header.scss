@@ -1,4 +1,5 @@
 .header {
+  padding-top: 20px;
   width: 100%;
   height: 85px;
   font-family: $font-header;
@@ -28,7 +29,7 @@
 }
 
 .portfolio {
-  font-size: $generic-size-m;
+  font-size: $font-xxl;
   color: $color-white;
   display: block;
   align-self: center;
@@ -36,13 +37,16 @@
 
 .btn-menu {
   margin-right: calc(7% + 25px) ;
-  border: 0;
-  background: transparent;
 }
 
 .menuB {
   width: 57px;
   height: 53px;
+}
+
+.menuB96 {
+  width: 70px;
+  height: 65px;
 }
 
 .dropdown-menu {
@@ -62,8 +66,9 @@
   transition: transform 300ms ease-in-out, opacity 0.3s ease-in-out;
 }
 
-.dropdown-menu-active {
+.dropdown-menu {
   transform: translateY(0);
+  transition: translate 600ms ease-in;
   margin-bottom: 30%;
 }
 

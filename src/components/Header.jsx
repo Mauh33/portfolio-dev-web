@@ -2,11 +2,14 @@ import React, { useEffect, useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import Line from "../assets/icons/line-1.svg";
 import MenuB from "../assets/icons/icon-menu-cloud.png";
+import MenuB96 from "../assets/icons/icon-menu-cloud-96.png";
+import { useDropdown } from '../utils/hooks/dropdownContext';
 
-const Header = ({isDropdownActive, onDropdownClick}) => {
+const Header = () => {
+  const {isDropdownActive, setDropdownActive} = useDropdown();
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   const [showInitialButton, setShowInitialButton] = useState(true);
-  const [isActive, setActive] = useState(false);
+
 
   useEffect(() => {
     const changeNavElement = () => {
@@ -23,14 +26,13 @@ const Header = ({isDropdownActive, onDropdownClick}) => {
 
   const handleMenuClick = () => {
     if (windowWidth <= 833) {
-      onDropdownClick();
+      setDropdownActive(!isDropdownActive);
       setShowInitialButton(true);
-      setActive(!isActive);
     }
   };
 
   return (
-    <div className='header'>
+    <header className='header'>
       <div className='portfolio-bloc'>
         <p className='portfolio'>Portfolio</p>
         <svg>
@@ -39,10 +41,11 @@ const Header = ({isDropdownActive, onDropdownClick}) => {
       </div>
       {showInitialButton && windowWidth <= 833 && (
         <button className='btn-menu' onClick={handleMenuClick}>
-          <img className="MenuB" src={MenuB} alt="menu burger pour écran mobile" />
+          <img className={windowWidth >= 568 ? 'menuB96' : 'menuB'} srcSet={`${MenuB} 360w, ${MenuB96} 568w`}
+          sizes="(min-width: 568px) and (max-width: 834px) 100vw" alt="menu burger pour écran mobile" />
         </button>
       )}
-      {windowWidth >=833 && (
+      {windowWidth >=834 && (
       <div className={`navigation ${windowWidth <= 833 ? "dropdown" : ""}`}>
         <NavLink to="/" className={windowWidth >= 834 ? "nav-text" : "nav-text-mobile"}>
           <li>Accueil</li>
@@ -56,7 +59,7 @@ const Header = ({isDropdownActive, onDropdownClick}) => {
       </div>
       )}
       {isDropdownActive && windowWidth <= 833 && (
-        <div className={`dropdown-menu ${isActive ? 'dropdown-menu-active' : ''}`}>
+        <div className={`dropdown-menu ${isDropdownActive ? 'active' : ''}`}>
           <NavLink to="/" className="nav-text-mobile nav-text-1">
             <li>Accueil</li>
           </NavLink>
@@ -68,7 +71,7 @@ const Header = ({isDropdownActive, onDropdownClick}) => {
           </NavLink>
         </div>
       )}
-    </div>
+    </header>
   );
 };
 
