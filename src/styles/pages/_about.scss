@@ -1,0 +1,64 @@
+.text-about-bloc, .dev-environnement-bloc {
+  display: block;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.second-page p  {
+  font-family: $font-txt;
+}
+
+
+
+.text-about-bloc {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  width: 80vw;
+  justify-content: center;
+}
+
+.text-about {
+  display: block;
+  font-size: 16px;
+  color: $color-white;
+  width: 100%;
+  height: 100%;
+  padding: 20px 10px;
+}
+
+.text-about, .text-dev-environnement {
+  font-weight: 600;
+}
+
+.dev-environnement-bloc {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  margin: 0 auto;
+}
+
+
+.text-dev-environnement {
+  font-size: $font-m;
+  color: $color-purple;
+  text-align: center;
+}
+
+.icon-dev {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.react-icon {
+  width: 76px;
+  height: 76px;
+}
+
+.node-icon {
+  width: 56px;
+  height: 56px;
+  margin-bottom: 12px;
+}
+

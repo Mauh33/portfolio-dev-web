@@ -344,8 +344,8 @@ button {
 }
 
 .dropdown-menu-active {
-  transform: translateY(0);
-  margin-bottom: 30%;
+  position: relative;
+  transform: translateY(-82px);
 }
 
 .nav-text, .nav-text-mobile {
@@ -357,7 +357,7 @@ button {
 }
 
 .nav-text-mobile {
-  width: -webkit-fill-available;
+  width: auto;
   height: 20px;
   text-align: center;
   justify-self: center;

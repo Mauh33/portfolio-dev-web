@@ -1,0 +1,35 @@
+footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 220px;
+  background-color: $color-2;
+}
+
+.contact {
+  height: 100%;
+}
+
+.flex-contact {
+  margin: 0 auto;
+  width: 300px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  a, p {
+    font-family: $font-header;
+    padding-bottom: 20px;
+    color: $color-white;
+    line-height: 1.5;
+    text-align: center;
+  }
+}
+
+.flex-contact li {
+  padding: 20px 0 0;
+}

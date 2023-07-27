@@ -1,7 +1,8 @@
 $breakpoints: (
-  "default": "min-width: 360px",
-  "s": "(min-width: 568px)",
+  "default": "min-width: 360px and (max-height: 896px)",
+  "s": "(min-width: 568px) and (max-height: 1199px)",
   "m": "(min-width: 834px)",
+  "lTablet": "(min-width:1024px) and (max-height: 800px)",
   "l": "(min-width:1200px)",
   "xl": "(min-width: 1728px)"
 );

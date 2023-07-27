@@ -13,3 +13,6 @@ $border-radius: 15px;
   mix-blend-mode: color-burn;
 }
 
+@mixin gradient-bloc {
+  background-color: linear-gradient(to bottom, $color-1, $color-2, $color-3) 1;
+}
