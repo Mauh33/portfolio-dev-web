@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-dev-web/static/css/main.5bfedccd.css",
-    "main.js": "/portfolio-dev-web/static/js/main.e7b0e51c.js",
+    "main.js": "/portfolio-dev-web/static/js/main.938a1f98.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio-dev-web/static/js/787.1ed0c42c.chunk.js",
     "static/media/Kasa-accueil.webp": "/portfolio-dev-web/static/media/Kasa-accueil.c9554574dd3568fd85e8.webp",
     "static/media/selfie.png": "/portfolio-dev-web/static/media/selfie.e0ac6688674b2de14da7.png",
@@ -14,11 +14,11 @@
     "index.html": "/portfolio-dev-web/index.html",
     "static/media/line-1.svg": "/portfolio-dev-web/static/media/line-1.9d06a395eabe3bdc4f8ef40808e19d5f.svg",
     "main.5bfedccd.css.map": "/portfolio-dev-web/static/css/main.5bfedccd.css.map",
-    "main.e7b0e51c.js.map": "/portfolio-dev-web/static/js/main.e7b0e51c.js.map",
+    "main.938a1f98.js.map": "/portfolio-dev-web/static/js/main.938a1f98.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio-dev-web/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5bfedccd.css",
-    "static/js/main.e7b0e51c.js"
+    "static/js/main.938a1f98.js"
   ]
 }
