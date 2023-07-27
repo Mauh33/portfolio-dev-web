@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Palanquin:wght@300;400;500&family=Signika+Negative:wght@400;500;600&display=swap');
-@import url("https://fonts.googleapis.com/css?family=Droid+Sans:400,600,700");
+
+@import url('https://fonts.googleapis.com/css2?family=Palanquin:wght@300;400;500;600&family=Poppins:wght@400;500;600;700&family=Signika+Negative:wght@400;500;600&display=swap');
+
 
 $color-white: #FFFFFF;
 $color-green: #ACF39D;
@@ -18,7 +19,7 @@ $font-4xl: 3rem;
 $font-giant:3.5rem;
 $font-supergiant: 4rem;
 
-$font-header: "Droid Sans";
+$font-header: "Poppins", sans-serif;
 $font-subtitle: "Signika Negative", sans-serif;
 $font-txt: "Palanquin", sans-serif;
 
