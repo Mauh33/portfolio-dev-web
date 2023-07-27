@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio-dev-web/static/css/main.b1756a9b.css",
+    "main.css": "/portfolio-dev-web/static/css/main.53d2eae8.css",
     "main.js": "/portfolio-dev-web/static/js/main.e7b0e51c.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio-dev-web/static/js/787.1ed0c42c.chunk.js",
     "static/media/Kasa-accueil.webp": "/portfolio-dev-web/static/media/Kasa-accueil.c9554574dd3568fd85e8.webp",
@@ -13,12 +13,12 @@
     "static/media/bg-cover-mobile.webp": "/portfolio-dev-web/static/media/bg-cover-mobile.33b3813897640ff130a9.webp",
     "index.html": "/portfolio-dev-web/index.html",
     "static/media/line-1.svg": "/portfolio-dev-web/static/media/line-1.9d06a395eabe3bdc4f8ef40808e19d5f.svg",
-    "main.b1756a9b.css.map": "/portfolio-dev-web/static/css/main.b1756a9b.css.map",
+    "main.53d2eae8.css.map": "/portfolio-dev-web/static/css/main.53d2eae8.css.map",
     "main.e7b0e51c.js.map": "/portfolio-dev-web/static/js/main.e7b0e51c.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio-dev-web/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b1756a9b.css",
+    "static/css/main.53d2eae8.css",
     "static/js/main.e7b0e51c.js"
   ]
 }
