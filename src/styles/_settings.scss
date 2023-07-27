@@ -61,9 +61,10 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 
 body {
   line-height: 1;
+  position: relative;
 }
 
-ol, ul {
+ol, ul, li {
   list-style: none;
 }
 
@@ -105,6 +106,8 @@ main {
   display: flex;
   flex-direction: column;
   margin: auto;
+  margin-bottom: 100px;
+  height: 360vh;
 }
 
 .link-project {
@@ -337,6 +340,7 @@ body {
     }
 
     .header-layout {
+      padding-top: 15px;
       height: 100%;
     }
 
@@ -473,6 +477,7 @@ body {
       background-size: 100vw 100vh;
     }
 
+
     .first-page {
       flex-direction: row-reverse;
       justify-content: center;
@@ -556,6 +561,14 @@ body {
       height: 142px;
     }
 
+    .header-layout {
+      padding-top: unset;
+    }
+
+    .navigation {
+      height: 30px;
+    }
+
     .portfolio {
       font-size: $font-giant;
     }
@@ -635,7 +648,9 @@ body {
 
     .header-layout {
       width: 90vw;
+      padding-top: unset;
     }
+
 
     .navigation a {
       font-size: 2.5rem;

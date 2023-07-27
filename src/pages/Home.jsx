@@ -32,11 +32,11 @@ const Home = () => {
 
 
   return (
-    <div className='page'>
+    <div className='page' id='home'>
         <Header />
       <div className='layout-limit'>
         <main>
-          <section className="first-page">
+          <section className="first-page" >
             <Portrait />
             <SocialMedia />
             <CatchPhrase />
@@ -58,8 +58,8 @@ const Home = () => {
             </div>
 
           </section>
-          <section className="second-page">
-            <h2 className="subtitle" id='about'>A propos</h2>
+          <section className="second-page" id='about'>
+            <h2 className="subtitle">A propos</h2>
             {windowWidth >= 1727 && (
               <img src={PictureWoman} alt="" className="draw-woman" />
             )}
@@ -81,7 +81,7 @@ const Home = () => {
             </div>
             </div>
           </section>
-          <section className="third-page">
+          <section className="third-page" id="projects">
             <h2 className="subtitle">Mes projets</h2>
             <div className="project-bloc">
               <div className='kasa-project'>
