@@ -3,7 +3,6 @@
 .third-page {
   margin: 0 auto;
   height: 2800px;
-  margin-bottom: 200px;
 }
 
 .project-bloc {
@@ -54,19 +53,21 @@
 }
 
 .project-description-2 {
-  height: 350px;
+  height: 400px;
 }
 
 .ul-skills {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
   height: 100px;
-  padding-left: 50px;
+  margin: auto;
+  padding: 0 10%;
 }
 
 .ul-skills-1 li:nth-child(2) {
-  width: 110px;
+  padding: 0.4vh 0 0 0;
 }
 
 .text-skills {
@@ -76,7 +77,9 @@
   background-color: $color-2;
   color: $color-white;
   width: 90px;
-  padding: 8px 5px 0 10px;
+  max-width: 130px;
+  padding: 9px 0;
+  text-align: center;
   height: 38px;
   border-radius: 16px;
 }

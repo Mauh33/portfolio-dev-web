@@ -60,7 +60,7 @@ const Home = () => {
           </section>
           <section className="second-page" id='about'>
             <h2 className="subtitle">A propos</h2>
-            {windowWidth >= 1727 && (
+            {windowWidth >= 1728 && (
               <img src={PictureWoman} alt="" className="draw-woman" />
             )}
             <div className="text-about-bloc linear-bloc">
@@ -85,7 +85,7 @@ const Home = () => {
             <h2 className="subtitle">Mes projets</h2>
             <div className="project-bloc">
               <div className='kasa-project'>
-              <h3 className="subtitle-3">Kasa : site de location immobilière entre particuliers</h3>
+              <h3 className="subtitle-3">Kasa : <br /> site de location immobilière entre particuliers</h3>
               <img className='project-img' src={KasaProjectImg} alt="projet de site Kasa" />
               <a className='link-project' href="https://github.com/Mauh33/Kasa">Clique pour découvrir ce projet</a>
               <p className="project-description projet-description-1 linear-bloc">On m'a chargé de réaliser Kasa. <br />
@@ -103,7 +103,7 @@ const Home = () => {
               </div>
               </div>
               <div className='monVieuxGrim-project'>
-              <h3 className="subtitle-3">Mon vieux grimoire : site de notation de livres</h3>
+              <h3 className="subtitle-3">Mon vieux grimoire : <br /> site de notation de livres</h3>
               <img src={MonVieuxGrimImg} alt="projet de site Mon vieux grimoire " className="project-img" />
               <a className='link-project' href="https://github.com/Mauh33/Mon-vieux-grimoire">Clique pour découvrir ce projet</a>
               <p className="project-description project-description-2 linear-bloc">Ce site est indiquée pour les grands et petits lecteurs qui ont envie de noter des livres et avoir un aperçu des livres les mieux notés, faire partie d'une communauté...
